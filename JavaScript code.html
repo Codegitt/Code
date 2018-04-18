@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html lang='en'>
@@ -6,7 +5,7 @@
 
 <head>
 
-    
+
   <meta charset="utf-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,8 +18,8 @@
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    
-<title>J.E. Portfolio</title>
+
+  <title>J.E. Portfolio</title>
 
 
 </head>
@@ -29,134 +28,154 @@
 <body>
 
 
-<div class="container-fluid">
+  <div class="container-fluid">
 
 
- <!-- ################################################# NAVIGATION BAR BEGINS ########################################################## -->
-    
+    <!-- ################################################# NAVIGATION BAR BEGINS ########################################################## -->
+
     <nav class="navbar navbar-inverse navbar-fixed-top">
 
-    <div class="container-fluid">
+      <div class="container-fluid">
 
         <div class="navbar-header">
 
-        <a class="navbar-brand" href="J.E. Portfolio.html"> J.E. Portfolio </a>   
+          <a class="navbar-brand" href="J.E. Portfolio.html"> J.E. Portfolio </a>
 
         </div>
-    
+
         <ul class="nav navbar-nav">
 
-            <li > <a href="J.E. Portfolio.html"> Home </a> </li>
+          <li>
+            <a href="J.E. Portfolio.html"> Home </a>
+          </li>
 
-            <li> <a href="About.html"> About </a> </li>
+          <li>
+            <a href="About.html"> About </a>
+          </li>
 
-            <li class="active"> <a href="Page 1.html" > Page 1 </a> </li>
+          <li class="active">
+            <a href="Page 1.html"> Page 1 </a>
+          </li>
 
-            <li> <a href="Page 2.html"> Page 2 </a> </li>
+          <li>
+            <a href="Page 2.html"> Page 2 </a>
+          </li>
 
-            <li> <a href="Page 3.html"> Page 3 </a> </li>
+          <li>
+            <a href="Page 3.html"> Page 3 </a>
+          </li>
 
-            <li> <a href="Contact.html" > Contact </a> </li>
+          <li>
+            <a href="Contact.html"> Contact </a>
+          </li>
 
-                </ul>
-        
-        <form class="navbar-form navbar-left" action="\action_page.php"> 
-    
-        <div class="input-group">
+        </ul>
 
-            <input type="text"  name="search"  class="form-control" placeholder="Search"   >
+        <form class="navbar-form navbar-left" action="\action_page.php">
 
-            <div class="input-group-btn" >
+          <div class="input-group">
+
+            <input type="text" name="search" class="form-control" placeholder="Search">
+
+            <div class="input-group-btn">
 
 
-            <button class="btn btn-default" type="submit" >
+              <button class="btn btn-default" type="submit">
 
                 <i class="glyphicon glyphicon-search"> </i>
 
-                </button> 
-                            
-            </div>
+              </button>
 
             </div>
 
-        </form>
-        
-        <form class="navbar-form navbar-right" action="\action_page.php" >  <button type="button" class="btn btn-navbar btn-success"> 
+          </div>
 
-          <a href="SignUp.html"> <b>Sign Up</b> </a> </button> 
-        
         </form>
-        
+
+        <form class="navbar-form navbar-right" action="\action_page.php">
+          <button type="button" class="btn btn-navbar btn-success">
+
+            <a href="SignUp.html">
+              <b>Sign Up</b>
+            </a>
+          </button>
+
+        </form>
+
         <ul class="nav navbar-nav navbar-right">
-            
-            <li > <a href="LogIn.html" > <span  class="glyphicon glyphicon-log-in"> </span> Log In </a> </li>         
-        
+
+          <li>
+            <a href="LogIn.html">
+              <span class="glyphicon glyphicon-log-in"> </span> Log In </a>
+          </li>
+
         </ul>
 
-            </div>
+      </div>
 
-        </nav>
-    
+    </nav>
+
 
     <!-- ################################################# NAVIGATION BAR ENDED ######################################################## -->
 
 
-<br>
-<br>
-<br>
+    <br>
+    <br>
+    <br>
 
-<h1 style="text-align: center; font-size: 50px;"> Weather App </h1>
+    <h1 style="text-align: center; font-size: 50px;"> Weather App </h1>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-<div style="text-align: center;">
+    <div style="text-align: center;">
 
-<p id="weather" style="display:none"> This will display the weather in your current location. </p>
+      <p id="weather" style="display:none"> This will display the weather in your current location. </p>
 
-<button type="button"  onclick="document.getElementById('weather').style.display='block'"> Click to show weather </button>
-
-</div>
-
-<br>
-<br>
-<br>
-
-<div style="text-align: center">
-
-<script>
-
-    function weatherFunction() {document.getElementById('weather2').innerHTML='Your weather will be displayed here.'}
-
-</script>
-
-<p id="weather2"> Weather for second location. </p>
-
-<button type="button" onclick="weatherFunction()"> Click for weather at a second location </button>
-
-</div>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<div style="text-align: center;">
-
-<button type="button" onclick="document.getElementById('tmdt').innerHTML=Date()"> Click to show date and time </button> 
-
-<p id="tmdt" style="font-size: 27px;"> </p>
-
-</div>   
-
- 
+      <button type="button" onclick="document.getElementById('weather').style.display='block'"> Click to show weather </button>
 
     </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div style="text-align: center">
+
+      <script>
+
+        function weatherFunction() { document.getElementById('weather2').innerHTML = 'Your weather will be displayed here.' }
+
+      </script>
+
+      <p id="weather2"> Weather for second location. </p>
+
+      <button type="button" onclick="weatherFunction()"> Click for weather at a second location </button>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div style="text-align: center;">
+
+      <button type="button" onclick="document.getElementById('tmdt').innerHTML=Date()"> Click to show date and time </button>
+
+      <p id="tmdt" style="font-size: 27px;"> </p>
+
+    </div>
+
+
+
+  </div>
 </body>
+
 </html>
