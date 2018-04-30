@@ -320,7 +320,7 @@ print(has_33([2,4,7,8,9,3,3,1,0]))
 
 # Here, given a string, the code returns a string where for every character in the original string the code will output three copies of each character:
 
-def pd(wrds):
+def hb(wrds):
     
     newstr = []
 
@@ -329,12 +329,12 @@ def pd(wrds):
     
     return newstr
 
-aVar = pd('It will be sunny today.')
+aVar = hb('It will be sunny today.')
 print(aVar, end='')
 
 
 
-def paDo(text):
+def cu(text):
 
     result = ''
     
@@ -342,9 +342,9 @@ def paDo(text):
         result += char*3
     return result
 
-print(paDo('It is sunny today.'))
+print(cu('It is sunny today.'))
 
-print(paDo('House'))
+print(cu('House'))
 
     
 
