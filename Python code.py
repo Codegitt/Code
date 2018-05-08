@@ -39,9 +39,9 @@ print(list1)
 
 
 
-qx =  'Print every word in this sentence that has an even number of letters'
+n_x =  'Print every word in this sentence that has an even number of letters'
 
-for y in qx.split():
+for y in n_x.split():
     if len(y) %2==0:
         print(y + ': is Even')
     else:
